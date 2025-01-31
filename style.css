@@ -228,6 +228,7 @@ img{
     background-image: url("./images/devis.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .devis-description {
@@ -250,7 +251,7 @@ img{
     color: #FFFFFF;
 }
 
-.devis-line p{
+.devis-line span{
     display: block;
     width: 2px;
     height: 400px;
@@ -291,7 +292,7 @@ img{
 }
 
 #contactForm textarea {
-    padding: 2px 5px;
+    padding: 5px;
 }
 
 #contactForm textarea::placeholder {
@@ -332,7 +333,7 @@ img{
     }
     
     .header-logo h2 {
-        font-size: 28px;
+        font-size: 30px;
         letter-spacing: 1px;
     }
     
@@ -379,7 +380,7 @@ img{
 
     .hamburger {
         display: flex;
-        margin-left: 35px;
+        margin-left: 20px;
     }
     
     .hamburger span {
@@ -402,6 +403,7 @@ img{
 
     .social-media-information {
         margin-right: 20px;
+        gap: 20px;
     }
 
     .social-media-information i{
@@ -476,14 +478,13 @@ img{
         font-size: 16px;
     }
 
-    .devis-line p{
+    .devis-line span{
         width: 350px;
         height: 2px;
-        text-align: center;
         background-color: white;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin: 30px 0;
     }
+
 
     .devis-content {
         width: 350px;
