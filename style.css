@@ -346,15 +346,15 @@ img{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
     }
     
     .header-contact-info-phone p, .header-contact-info-location p {
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .header-contact-info-phone i, .header-contact-info-location i {
-        font-size: 18px;
+        font-size: 16px;
     }
     /* Navbar Media Style Start */
 
@@ -436,8 +436,8 @@ img{
     }
     
     .banner-content-box {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     
     .banner-content-box-img{
@@ -485,7 +485,7 @@ img{
     }
 
     .devis-content {
-        width: 400px;
+        width: 350px;
     }
 
     .devis-content #contactForm {
