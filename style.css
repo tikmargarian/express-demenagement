@@ -225,7 +225,8 @@ img{
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    background-image: url("./images/devis.png");
+    /* background-image: url("./images/devis.png"); */
+    background-color: #1a1a1a;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
