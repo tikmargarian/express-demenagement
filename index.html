@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+     <link rel="stylesheet" href="style.css">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- link font Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- link font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Page Title -->
+    <title>Express Demenagement</title>
+    <!-- Swiper styles -->
+    <style>
+    .swiper {
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+
+    .swiper h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: "Oswald", "sans-serif";
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 400px;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Header Start -->
+        <div class="header">
+            <div class="header-logo">
+                <h2>Express Demenagement</h2>
+            </div>
+            <div class="header-contact-info">
+                <div class="header-contact-info-phone">
+                    <i class='fas fa-phone informations-icon'></i>
+                    <p>Urgence déménagement: 06 02 35 53 79</p>
+                </div>
+                <div class="header-contact-info-location">
+                    <i class='fas fa-map-marker-alt'></i>
+                    <p>Strasbourg, Bas-Rhin, Haut-Rhin</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Navbar Start -->
+        <div class="navbar">
+            <ul class="navbar-items">
+                <li><a href="#app">Accueil</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projets</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="hamburger-span1"></span>
+                <span class="hamburger-span2"></span>
+                <span class="hamburger-span3"></span>
+            </div>
+
+            <div class="social-media-information">
+                <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+
+        </div>
+
+        <!-- Banner Start -->
+        <div class="banner">
+        <div class="banner-bg">
+            <div class="banner-description">
+                <h2>Demenagement et aide au demenagement</h2>
+            </div>
+            <div class="banner-devis">
+                <button>obtenez un devis gratuite</button>
+            </div>
+            <div class="banner-content">
+                <div class="banner-content-box">
+                    <div class="banner-content-box-img"><img src="./images/stationnement-demenagement-1536x1025.jpg" alt=""></div>
+                    <h2>Transport de meubles et électroménagers en toute sécurité.</h2>
+                </div>
+                <div class="banner-content-box">
+                    <div class="banner-content-box-img"><img src="./images/promutuel_1.jpg" alt=""></div>
+                    <h2>Déménagements locaux et longue distance adaptés à vos besoins.</h2>
+                </div>
+                <div class="banner-content-box">
+                    <div class="banner-content-box-img"><img src="./images/webp" alt=""></div>
+                    <h2>Aide au chargement et déchargement de vos biens.</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Devis Start -->
+         <div class="devis">
+            <div class="devis-description">
+                <h2>Obtenez un devis pour votre déménagement</h2>
+                <br>
+                <p>Nous examinerons votre demande et vous contacterons dans les plus brefs délais</p>
+            </div>
+            <div class="devis-line"><p></p></div>
+            <div class="devis-content">
+                <form id="contactForm">
+                    <label for="name">Adresse départ</label>
+                    <input type="text" id="depart" name="depart" placeholder="Ex : 10 rue de Paris, 67000 Strasbourg" required>
+            
+                    <label for="destination">Adresse d'arrivée</label>
+                    <input type="text" id="destination" name="destination" placeholder="Ex : 25 avenue de Lyon, 75001 Paris" required>
+            
+                    <label for="phone">Nom</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ex : Jean Dupont" required>
+
+                    <label for="phone">Numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ex : +33 6 12 34 56 78" required>
+            
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="4" required placeholder="Racontez-nous en détail votre déménagement:  Objets à transporter, étages, besoins spécifiques, etc."></textarea>
+            
+                    <button type="submit">Envoyer</button>
+                  </form>
+            </div>
+         </div>
+
+         <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <h2>Galery</h2>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/IMG_5809.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5847.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5854.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5857.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5809.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5847.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5854.JPG" /></div>
+                <div class="swiper-slide"><img src="./images/IMG_5857.JPG" /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+            },
+        pagination: {
+        el: ".swiper-pagination",
+            },
+        });
+  </script>
+</body>
+</html>
