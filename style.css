@@ -652,9 +652,11 @@ img{
 
     /* About-us Style Start */
     #about-us {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px 20px;
-    background-color: #f9f9f9;
+        padding: 50px 10px;
+    }
+
+    .about-content {
+        max-width: 800px;
+        padding: 2px;
     }
 }
