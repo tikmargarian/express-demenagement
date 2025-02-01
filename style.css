@@ -143,9 +143,10 @@ img{
     width: 100%;
     height: 630px;
     /* background: linear-gradient(to right, #2BC0E4, #eaecc6); */
-    background-image: url("./images/demenagement-demenageurs-professionnels-1536x810.jpg");
+    background-image: url("./images/demanagement-background.webp");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner-bg {
@@ -195,7 +196,7 @@ img{
     height: 400px;
     overflow: hidden;
     /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #1a6db7;
+    background-color: transparent;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
 
@@ -214,7 +215,7 @@ img{
     font-size: 19px;
     font-family: "Poppins", "sans-serif";
     font-style: normal;
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Devis Style Start */
@@ -320,6 +321,9 @@ img{
 
 #services {
     background-color: #f9f9f9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px 0;
 }
 
@@ -644,5 +648,13 @@ img{
         padding: 8px;
         margin-top: 15px;
         font-size: 16px;
+    }
+
+    /* About-us Style Start */
+    #about-us {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+    background-color: #f9f9f9;
     }
 }
