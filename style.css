@@ -142,11 +142,12 @@ img{
 .banner {
     width: 100%;
     height: 630px;
-    background: linear-gradient(to right, #1a6db7, #FFFFFF, #d62f2f);
+    background-color: #f9f9f9;
+    /* background: linear-gradient(to right, #1a6db7, #FFFFFF, #d62f2f); */
     /* background-image: url("./images/demanagement-background.webp"); */
-    background-position: center;
+    /* background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .banner-bg {
@@ -157,7 +158,7 @@ img{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-color: rgba(0,0,0,0.15);
+    /* background-color: rgba(0,0,0,0.15); */
 }
 
 .banner-description h2{
@@ -166,11 +167,11 @@ img{
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: #1a6db7;
+    /* background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); */
 }
 
 .banner-devis button {
@@ -201,7 +202,7 @@ img{
     height: 400px;
     overflow: hidden;
     /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #15364e;
+    background-color: #1a6db7;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
 
@@ -226,15 +227,16 @@ img{
 /* Devis Style Start */
 .devis {
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
-    background-image: url("./images/devis.png");
+    padding: 25px 20px;
+    background-color: #15364e;
+    /* background-image: url("./images/devis.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .devis-description {
@@ -314,12 +316,12 @@ img{
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #15364e;
-    color: #FFFFFF;
+    background-color: #d62f2f;
+    color: #f9f9f9;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    /* box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); */
 }
 
 /* Services Style Start */
@@ -387,8 +389,8 @@ img{
     display: flex;
     flex-wrap: wrap;
     padding: 50px 20px;
-    /* background-color: #f9f9f9; */
-    background-image: url("./images/about.jpg");
+    background-color: #f9f9f9;
+    /* background-image: url("./images/about.jpg"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -521,7 +523,7 @@ img{
         top: 75px;
         z-index: 1000;
         text-align: center;
-        background: #1a6db7;
+        background: #15364e;
         gap: 15px;
         padding: 20px 0;
         margin-left: 0;
