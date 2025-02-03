@@ -36,7 +36,7 @@ img{
     font-family: "Oswald", "sans-serif";
     font-style: normal;
     letter-spacing: 2px;
-    color: #1a6db7;
+    color: #254bdd;
 }
 
 .header-contact-info {
@@ -64,7 +64,7 @@ img{
 
 .header-contact-info-phone i, .header-contact-info-location i {
     font-size: 22px;
-    color: #1a6db7;
+    color: #254bdd;
 }
 
 /* Navbar Style Start */
@@ -201,7 +201,7 @@ img{
     height: 400px;
     overflow: hidden;
     /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #1a6db7;
+    background-color: #254bdd;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
 
@@ -231,7 +231,7 @@ img{
     justify-content: center;
     align-items: center;
     padding: 25px 20px;
-    background-color: #15364e;
+    background-color: #0E2333;
     /* background-image: url("./images/devis.png");
     background-position: center;
     background-size: cover;
