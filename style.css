@@ -334,12 +334,12 @@ img{
 }
 
 #contactForm button {
-    margin-top: 15px;
+    margin-top: 22px;
     padding: 12px 0;
     font-family: "Oswald", "sans-serif";
     font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 700;
+    letter-spacing: 2px;
     text-transform: uppercase;
     background-color: #f5b041;
     color: #0E2333;
@@ -424,7 +424,7 @@ img{
 #about-us {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 20px;
+    padding: 30px 20px;
     background-color: #f9f9f9;
 }
 
@@ -518,7 +518,25 @@ img{
     letter-spacing: 1px;
     text-align: center;
     color: #252525;
-    margin-bottom: 50px;
+}
+
+.avis-start {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.full {
+    color: #f5b041;
+}
+  
+.half {
+    background: linear-gradient(to right, #f5b041 50%, #F9F9F9 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .carousel {
@@ -584,7 +602,7 @@ img{
 }
 
 .stars {
-    color: #ffcc00;
+    color: #f5b041;
     font-size: 20px;
     letter-spacing: 3px;
 }
