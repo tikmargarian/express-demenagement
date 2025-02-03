@@ -59,7 +59,15 @@ img{
     gap: 15px;
 }
 
-.header-contact-info-phone p, .header-contact-info-location p {
+.header-contact-info-location p {
+    font-size: 15px;
+    font-family: "Poppins", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    color: #252525;
+}
+
+.header-contact-info-phone span {
     font-size: 15px;
     font-family: "Poppins", "sans-serif";
     font-style: normal;
@@ -299,7 +307,7 @@ img{
     width: 100%;
     border: none;
     border: 1px solid #f1f1f1;
-    padding: 12px 10px;
+    padding: 14px 10px;
     border-radius: 3px;
 }
 
@@ -383,7 +391,7 @@ img{
 }
 
 .service-card:hover i {
-    color: #0E2333;
+    color: #f5b041;
     transition: .3s ease;
 }
 
@@ -643,6 +651,13 @@ img{
     color: #f1f1f1;
 }
 
+.footer-contact-phone span {
+    font-family: "Poppins", "sans-serif";
+    font-size: 14px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
 .footer-content-about h3,
 .footer-content-contact h3,
 .footer-content-links h3,
@@ -691,7 +706,7 @@ img{
     font-family: "Poppins", "sans-serif";
     font-size: 15px;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: whitesmoke;
     text-decoration: none;
     transition: .3s;
@@ -798,11 +813,11 @@ img{
 
     .social-media-information {
         margin-right: 20px;
-        gap: 15px;
+        gap: 18px;
     }
 
     .social-media-information i{
-        font-size: 28px;
+        font-size: 26px;
     }
 
     /* Banner Media Style Start */
@@ -930,11 +945,11 @@ img{
     }
 
     .about-content p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .about-content h3 {
-        font-size: 22px;
+        font-size: 21px;
         margin-top: 25px;
         margin-bottom: 15px;
     }
