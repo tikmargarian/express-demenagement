@@ -36,7 +36,7 @@ img{
     font-family: "Oswald", "sans-serif";
     font-style: normal;
     letter-spacing: 2px;
-    color: #254bdd;
+    color: #1a6db7;
 }
 
 .header-contact-info {
@@ -64,7 +64,7 @@ img{
 
 .header-contact-info-phone i, .header-contact-info-location i {
     font-size: 22px;
-    color: #254bdd;
+    color: #1a6db7;
 }
 
 /* Navbar Style Start */
@@ -165,12 +165,16 @@ img{
     letter-spacing: 1px;
     color: #1a6db7;
     text-align: center;
-    /* margin-top: 15px;
-    margin-bottom: 10px; */
-    /* background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15); */
+}
+
+.banner-description p {
+    font-size: 22px;
+    font-family: "Poppins", "sans-serif";
+    font-style: normal;
+    font-weight: 600;
+    color: #0E2333;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .banner-devis button {
@@ -200,8 +204,7 @@ img{
     width: 400px;
     height: 400px;
     overflow: hidden;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    background-color: #254bdd;
+    background-color: #1a6db7;
     box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
 
@@ -230,12 +233,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 20px;
+    padding: 30px 20px;
     background-color: #0E2333;
-    /* background-image: url("./images/devis.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 .devis-description {
@@ -311,11 +310,11 @@ img{
     margin-top: 15px;
     padding: 10px 0;
     font-family: "Oswald", "sans-serif";
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #8bc24a;
+    background-color: #D40000;
     color: #f9f9f9;
     border: none;
     border-radius: 3px;
@@ -581,6 +580,14 @@ img{
     background: black;
 }
 
+/* Footer Style Start */
+
+.footer {
+    margin-top: 80px;
+    background-color: #0E2333;
+    height: 400px;
+}
+
 /* CSS Meda Style Start */
 @media (max-width: 768px) {
 
@@ -688,10 +695,16 @@ img{
     }
     
     .banner-description h2{
-        max-width: 450px;
+        width: 100%;
         font-size: 20px;
         letter-spacing: 1px;
         text-align: center;
+        padding: 0 5px;
+    }
+
+    .banner-description p {
+        font-size: 18px;
+        padding: 0 5px;
     }
     
     .banner-devis button {
