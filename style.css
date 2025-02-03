@@ -205,15 +205,19 @@ img{
     font-size: 16px;
     font-family: "Oswald", "sans-serif";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
     color: #f1f1f1;
+    transition: .4s ease;
 }
 
 .banner-devis button:hover{
     background-color: #ffd14b;
-    color: #0E2333;
+}
+
+.banner-devis button:hover a {
+    color: #252525;
 }
 
 .banner-content {
