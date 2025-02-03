@@ -18,7 +18,7 @@ img{
 /* Header Style Start */
 .header {
     width: 100%;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,13 +141,9 @@ img{
 
 .banner {
     width: 100%;
-    height: 630px;
+    height: 100%;
     background-color: #f9f9f9;
-    /* background: linear-gradient(to right, #1a6db7, #FFFFFF, #d62f2f); */
-    /* background-image: url("./images/demanagement-background.webp"); */
-    /* background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    padding: 30px 0;
 }
 
 .banner-bg {
@@ -158,16 +154,19 @@ img{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* background-color: rgba(0,0,0,0.15); */
 }
 
 .banner-description h2{
+    max-width: 800px;
     font-size: 32px;
     font-family: "Oswald", "sans-serif";
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #1a6db7;
+    text-align: center;
+    /* margin-top: 15px;
+    margin-bottom: 10px; */
     /* background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 3px;
@@ -176,6 +175,7 @@ img{
 
 .banner-devis button {
     padding: 15px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-family: "Oswald", "sans-serif";
     font-style: normal;
@@ -184,10 +184,9 @@ img{
     border: none;
     letter-spacing: 1px;
     color: white;
-    background-color: #1a6db7;
+    background-color: #15364e;
     border-radius: 3px;
     cursor: pointer;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
 }
 
 .banner-content {
@@ -316,7 +315,7 @@ img{
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #d62f2f;
+    background-color: #8bc24a;
     color: #f9f9f9;
     border: none;
     border-radius: 3px;
@@ -369,7 +368,7 @@ img{
 
 .service-card i {
     font-size: 55px;
-    color: #15364e;
+    color: #1a6db7;
     margin-bottom: 10px;
 }
 
@@ -466,6 +465,120 @@ img{
     background: #fff3e0;
     padding: 15px;
     border-left: 5px solid #ff6600;
+}
+
+/* Goggle Avis Style Start */
+
+.reviews-container {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: #f9f9f9;
+}
+
+.reviews-container h2 {
+    font-size: 28px;
+    font-family: "Oswald", "sans-serif";
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #15364e;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.reviews {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+.review {
+    min-width: 280px;
+    max-width: 320px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+}
+
+.avatar-google{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.google-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.review h3 {
+    font-size: 18px;
+    font-family: "Oswald", "sans-serif";
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.date{
+    font-size: 12px;
+    font-family: "Poppins", "sans-serif";
+    font-style: normal;
+    color: #252525;
+}
+
+.stars {
+    color: #ffcc00;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.review-avis {
+    font-size: 14px;
+    font-family: "Poppins", "sans-serif";
+    color: #252525;
+}
+
+.prev, .next {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+.prev { left: 0; }
+.next { right: 0; }
+.prev:hover, .next:hover {
+    background: black;
 }
 
 /* CSS Meda Style Start */
@@ -571,12 +684,12 @@ img{
 
     .banner-bg{
         width: 100%;
-        padding: 20px 0;
+        padding: 0;
     }
     
     .banner-description h2{
-        max-width: 370px;
-        font-size: 26px;
+        max-width: 450px;
+        font-size: 20px;
         letter-spacing: 1px;
         text-align: center;
     }
