@@ -72,7 +72,7 @@ img{
     font-family: "Poppins", "sans-serif";
     font-style: normal;
     font-weight: 600;
-    color: #252525;
+    color: #252525 !important;
 }
 
 .header-contact-info-phone i, .header-contact-info-location i {
@@ -193,18 +193,22 @@ img{
 .banner-devis button {
     padding: 15px;
     margin-bottom: 10px;
-    font-size: 16px;
-    font-family: "Oswald", "sans-serif";
-    font-style: normal;
-    text-transform: uppercase;
     border: none;
-    font-weight: 500;
     letter-spacing: 1px;
-    color: white;
     background-color: #15364e;
     border-radius: 3px;
     cursor: pointer;
     transition: .4s ease;
+}
+
+.banner-devis button a{
+    font-size: 16px;
+    font-family: "Oswald", "sans-serif";
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f1f1f1;
 }
 
 .banner-devis button:hover{
@@ -655,7 +659,7 @@ img{
     font-family: "Poppins", "sans-serif";
     font-size: 14px;
     font-weight: 500;
-    color: #f1f1f1;
+    color: #f1f1f1 !important;
 }
 
 .footer-content-about h3,
@@ -760,7 +764,7 @@ img{
         gap: 10px;
     }
     
-    .header-contact-info-phone p, .header-contact-info-location p {
+    .header-contact-info-phone span, .header-contact-info-location p {
         font-size: 12px;
     }
     
