@@ -242,6 +242,7 @@ img{
 
 .banner-content-box-img img{
     height: 100%;
+    object-fit: cover;
 }
 
 .banner-content-box h2 {
